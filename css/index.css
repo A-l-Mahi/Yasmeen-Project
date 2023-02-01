@@ -1,0 +1,202 @@
+body {
+  /* CSS styles for class "title" */
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  gap: 8px;
+  padding: 0;
+  margin: 0;
+  background: rgb(7, 4, 91);
+  background: linear-gradient(
+    135deg,
+    rgba(7, 4, 91, 1) 0%,
+    rgba(9, 86, 121, 1) 35%,
+    rgba(0, 255, 160, 1) 100%
+  );
+  width: 100%;
+  height: 100vh;
+}
+.heading {
+  border: 2px solid rgb(17, 178, 189);
+  padding: 5px 40px;
+  border-radius: 10px;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.log {
+  width: 300px;
+  height: 100px;
+  overflow-y: scroll;
+  background-color: aliceblue;
+  padding: 10px;
+  text-align: left;
+}
+.title {
+  /* CSS styles for class "title" */
+}
+.description {
+  /* CSS styles for class "description" */
+  margin-top: -20px;
+}
+.forms {
+  width: 100%;
+  display: flex;
+}
+.left {
+  flex: 1;
+  text-align: center;
+}
+.right {
+  flex: 1;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.stats {
+  /* CSS styles for class "stats" */
+  justify-self: en;
+}
+.async-mode {
+  /* CSS styles for class "async-mode" */
+}
+.current-transport {
+  /* CSS styles for class "current-transport" */
+}
+.ping-pong-latency {
+  /* CSS styles for class "ping-pong-latency" */
+}
+.form-title {
+  /* CSS styles for class "form-title" */
+}
+.emit-form {
+  /* CSS styles for class "emit-form" */
+}
+.emit-data {
+  /* CSS styles for class "emit-data" */
+}
+.submit-emit {
+  /* CSS styles for class "submit-emit" */
+}
+.broadcast-form {
+  /* CSS styles for class "broadcast-form" */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.broadcast-data {
+  /* CSS styles for class "broadcast-data" */
+  width: 300px;
+  height: 80px;
+  padding: 0px 10px;
+  width: 300px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.submit-broadcast {
+  /* CSS styles for class "submit-broadcast" */
+  height: 40px;
+  width: 300px;
+  border: none;
+  border-radius: 10px;
+}
+.join-form {
+  /* CSS styles for class "join-form" */
+}
+.join-room {
+  /* CSS styles for class "join-room" */
+}
+.submit-join {
+  /* CSS styles for class "submit-join" */
+  height: 40px;
+  width: 300px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.leave-form {
+  /* CSS styles for class "leave-form" */
+}
+.leave-room {
+  /* CSS styles for class "leave-room" */
+}
+.submit-leave {
+  /* CSS styles for class "submit-leave" */
+}
+.send-room-form {
+  /* CSS styles for class "send-room-form" */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.room-name {
+  /* CSS styles for class "room-name" */
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 0px 10px;
+}
+.room-data {
+  /* CSS styles for class "room-data" */
+  width: 300px;
+  height: 80px;
+  padding: 0px 10px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.submit-send-room {
+  /* CSS styles for class "submit-send-room" */
+  height: 40px;
+  width: 300px;
+  border: none;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.close-form {
+  /* CSS styles for class "close-form" */
+  display: flex;
+  margin-bottom: 10px;
+  flex-direction: column;
+}
+.close-room {
+  /* CSS styles for class "close-room" */
+  height: 40px;
+  width: 300px;
+  border: none;
+  margin-bottom: 5px;
+  border-radius: 10px;
+}
+.submit-close {
+  /* CSS styles for class "submit-close" */
+  height: 40px;
+  width: 300px;
+  border: none;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.disconnect-form {
+  /* CSS styles for class "disconnect-form" */
+}
+.disconnect-submit {
+  height: 40px;
+  width: 300px;
+  border: none;
+  border-radius: 10px;
+}
+.center {
+  flex: 1;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex: 1;
+}
